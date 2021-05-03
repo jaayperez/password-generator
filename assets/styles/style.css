@@ -7,7 +7,7 @@ body {
   background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   color: #1d1d1f;
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden !important;
+  /* overflow-x: hidden !important; */
 }
 
 *, *::before, *::after {
