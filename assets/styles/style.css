@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 
 body {
-  width: 800px;
+  /* width: 800px; */
   margin: 0 auto;
   padding: 0;
   background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
@@ -272,8 +272,8 @@ footer {
   width: 100%;
   padding: 10px;
   bottom: 0px;
-  margin: 50px 0;
-  border-radius: 4px;
+  /* margin: 50px 0; */
+  /* border-radius: 4px; */
   color: white;
 }
 
@@ -560,6 +560,17 @@ input[type="checkbox"]:checked+label:before {
 }
 
 button, input, optgroup, select, textarea {
-  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  font-size: 32px;
+  height: 48px;
   width: 450px;
+}
+
+
+/* Icons */
+
+ion-icon {
+  font-size: 2.4rem;
 }
