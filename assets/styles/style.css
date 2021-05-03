@@ -114,7 +114,7 @@ a {
 @media (max-width: 600px) {
   .rainbow {
     width: 300px;
-    height: 120px;
+    /* height: 120px; */
   }
 
   .rainbow p {
@@ -569,6 +569,12 @@ button, input, optgroup, select, textarea {
   font-size: 32px;
   height: 48px;
   width: 450px;
+}
+
+@media (max-width: 600px) {
+  button, input, optgroup, select, textarea {
+    width: auto;
+  }
 }
 
 

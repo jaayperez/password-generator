@@ -23,7 +23,7 @@
 
 <body>
 
-  <div class="container m-5">
+  <div class="container mt-5 mb-5">
     <div class="col-12 mt-3 text-center">
       <img src="./assets/images/logo.png" class="img-fluid mx-auto d-block" alt="Password Generator" height="auto" width="150">
       <h1 class="title">Password Generator</h1>
@@ -45,16 +45,20 @@
 
 
   <footer class="p-5">
-    <div class="row">
-      <div class="col-8 text-left">
-        Copyright © 2021 <a href="#">Password Generator</a>.
-      </div>
-      <div class="col-4 text-right">
-        Designed by
-        <a href="https://mobile.twitter.com/jaayperez" target="_blank" rel="noopener">
-          <i style="text-decoration: underline dotted;" class="fa fa-twitter"></i>
-          Justin Perez
-        </a>.
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12 text-left">
+          Copyright © 2021 <a href="#">Password Generator</a>.
+        </div>
+        <!-- Force next columns to break to new line at sm breakpoint -->
+        <div class="w-100 d-md-none d-sm-block"></div>
+        <div class="col-md-4 col-sm-12 text-right">
+          Designed by
+          <a href="https://mobile.twitter.com/jaayperez" target="_blank" rel="noopener">
+            <i style="text-decoration: underline dotted;" class="fa fa-twitter"></i>
+            Justin Perez
+          </a>.
+        </div>
       </div>
     </div>
   </footer>
