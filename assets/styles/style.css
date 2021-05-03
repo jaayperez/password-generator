@@ -199,9 +199,9 @@ a {
   text-transform: uppercase;
 }
 
-.btn:focus {
+/* .btn:focus {
   outline: 2px dotted #00688a;
-}
+} */
 
 /* body
   ====================== */
