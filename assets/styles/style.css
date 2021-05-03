@@ -203,6 +203,9 @@ a {
   outline: 2px dotted #00688a;
 } */
 
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none;
+}
 /* body
   ====================== */
 .top {
