@@ -7,7 +7,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <script src="./assets/scripts/script.js" defer></script>
   <link rel="stylesheet" href="./assets/styles/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
   <title>Password Generator</title>
 </head>
 <body>
@@ -17,10 +16,7 @@
       <h1 class="title">Password Generator</h1>
       <h2 class="password-display text-center">Secure. Simple. Smart.</h2>
     </div>
-    <div class="col-12 mt-5 mb-3 text-center">
-      <h3>New Password</h3>
-      <input type='text' id='p9' />
-    </div>
+    <div class="col-12 mt-5 mb-3 text-center"><h3>New Password</h3><input type='text' id='p9' /></div>
     <form id="passwordGeneratorForm" class="form text-center">
       <br>
       <div class="rainbow"><input class="btn draw-border" type='button' value='Generate Now' onclick='document.getElementById("p9").value = generatePassword()'></div>
