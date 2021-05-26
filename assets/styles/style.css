@@ -245,15 +245,6 @@ footer {
 
 @media (max-width: 1000px) {
   .column {
-    -webkit-box-flex: 50%;
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .column {
     -webkit-box-flex: 100%;
     -ms-flex: 100%;
     flex: 100%;
