@@ -9,8 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-/* typography
-  ====================== */
+/* typography ====================== */
 h1 {
   font-size: 4rem;
   font-family: 'Raleway', sans-serif;
@@ -38,8 +37,7 @@ a {
   text-decoration: underline dotted;
 }
 
-/* title box
-  ====================== */
+/* title box ====================== */
 @-webkit-keyframes rotate {
   100% {
     -webkit-transform: rotate(1turn);
@@ -122,8 +120,7 @@ a {
   }
 }
 
-/* buttons
-  ====================== */
+/* buttons ====================== */
 .draw-border {
   color: #777;
 }
@@ -159,8 +156,7 @@ a {
   box-shadow: none;
 }
 
-/* body
-  ====================== */
+/* body ====================== */
 .top {
   background-color: #00688a;
   position: fixed;
@@ -223,8 +219,7 @@ footer {
   color: white;
 }
 
-/* custom
-  ====================== */
+/* custom ====================== */
 .row p {
   font-size: 1.5rem;
   margin: 50px;
