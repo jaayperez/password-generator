@@ -344,43 +344,6 @@ footer {
   fill: #1da1f2;
 }
 
-#linkedin svg {
-  fill: #0e76a8;
-}
-
-#github {
-  fill: #333;
-}
-
-.blurred-box {
-  width: 250px;
-  height: 250px;
-  top: calc(50% - 175px);
-  left: calc(50% - 125px);
-  background: inherit;
-  background: #2222;
-  border-radius: 2px;
-  overflow: hidden;
-  opacity: 0.8;
-  margin: 0 auto;
-  padding: 0 0 0 24px;
-  text-align: left;
-}
-
-.blurred-box:after {
-  content: '';
-  width: 300px;
-  height: 300px;
-  background: inherit;
-  position: absolute;
-  left: -25px;
-  left position right: 0;
-  top: -25px;
-  top position bottom: 0;
-  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-  filter: blur(10px);
-}
-
 /* Checkboxes styles */
 .password-display {
   color: #1d1d1f;
