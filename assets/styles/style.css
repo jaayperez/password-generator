@@ -1,6 +1,4 @@
 body {
-  margin: 0 auto;
-  padding: 0;
   background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   color: #1d1d1f;
   font-family: 'Raleway', sans-serif;
@@ -14,7 +12,6 @@ body {
 /* typography
   ====================== */
 h1 {
-  text-align: center;
   font-size: 4rem;
   font-family: 'Raleway', sans-serif;
   line-height: 100px;
@@ -226,7 +223,7 @@ footer {
   color: white;
 }
 
-/* flexbox
+/* custom
   ====================== */
 .row p {
   font-size: 1.5rem;
@@ -269,12 +266,6 @@ footer {
   }
 }
 
-/* sourceMappingURL=style.css.map */
-#twitter svg {
-  fill: #1da1f2;
-}
-
-/* Checkboxes styles */
 .password-display {
   color: #1d1d1f;
 }
@@ -292,4 +283,8 @@ button, input, optgroup, select, textarea {
   button, input, optgroup, select, textarea {
     width: auto;
   }
+}
+
+#twitter svg {
+  fill: #1da1f2;
 }
