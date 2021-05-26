@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"); */
 
 body {
-  /* width: 800px; */
   margin: 0 auto;
   padding: 0;
   background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
   color: #1d1d1f;
   font-family: 'Raleway', sans-serif;
-  /* overflow-x: hidden !important; */
 }
 
 *, *::before, *::after {
@@ -115,7 +113,6 @@ a {
 @media (max-width: 600px) {
   .rainbow {
     width: 300px;
-    /* height: 120px; */
   }
 
   .rainbow p {
@@ -200,10 +197,6 @@ a {
   text-transform: uppercase;
 }
 
-/* .btn:focus {
-  outline: 2px dotted #00688a;
-} */
-
 .btn-check:focus+.btn, .btn:focus {
   box-shadow: none;
 }
@@ -275,9 +268,7 @@ footer {
   background-color: black;
   width: 100%;
   padding: 10px;
-  bottom: 0px;
-  /* margin: 50px 0; */
-  /* border-radius: 4px; */
+  bottom: 0;
   color: white;
 }
 
@@ -366,7 +357,6 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  /* background: #00688a; */
   background-color: #7777;
   border-radius: 8px;
 }
@@ -428,7 +418,7 @@ footer {
   .modal-content p {
     font-size: 1rem;
     padding: 20px;
-    margin: 0px;
+    margin: 0;
   }
 }
 
@@ -457,7 +447,7 @@ footer {
 }
 
 .social-btn span {
-  width: 0px;
+  width: 0;
   overflow: hidden;
   transition: 1s;
   text-align: center;
@@ -576,11 +566,4 @@ button, input, optgroup, select, textarea {
   button, input, optgroup, select, textarea {
     width: auto;
   }
-}
-
-
-/* Icons */
-
-ion-icon {
-  font-size: 2.4rem;
 }
