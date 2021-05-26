@@ -1,4 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"); */
 body {
   margin: 0 auto;
   padding: 0;
@@ -129,48 +128,11 @@ a {
 /* buttons
   ====================== */
 .draw-border {
-  -webkit-box-shadow: inset 0 0 0 4px white;
-  box-shadow: inset 0 0 0 4px white;
-  color: white;
   color: #777;
-  -webkit-transition: color 0.25s 0.08333s;
-  transition: color 0.25s 0.08333s;
-  position: relative;
-}
-
-.draw-border::before, .draw-border::after {
-  border: 0 solid transparent;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  content: '';
-  pointer-events: none;
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.draw-border::before {
-  border-bottom-width: 4px;
-  border-left-width: 4px;
-}
-
-.draw-border::after {
-  border-top-width: 4px;
-  border-right-width: 4px;
 }
 
 .draw-border:hover {
   color: #00688a;
-}
-
-.draw-border:hover::before, .draw-border:hover::after {
-  border-color: #00688a;
-  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
-  transition: border-color 0s, width 0.25s, height 0.25s;
-  width: 100%;
-  height: 100%;
 }
 
 .draw-border:hover::before {
@@ -212,14 +174,6 @@ a {
   width: 100%;
   top: 0;
   z-index: 3;
-}
-
-#GFG_UP {
-  display: none;
-}
-
-#GFG_UP2 {
-  display: none;
 }
 
 .code {
