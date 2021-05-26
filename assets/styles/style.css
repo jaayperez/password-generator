@@ -1,5 +1,4 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"); */
-
 body {
   margin: 0 auto;
   padding: 0;
@@ -200,6 +199,7 @@ a {
 .btn-check:focus+.btn, .btn:focus {
   box-shadow: none;
 }
+
 /* body
   ====================== */
 .top {
