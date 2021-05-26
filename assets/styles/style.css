@@ -228,27 +228,6 @@ footer {
 
 /* flexbox
   ====================== */
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.column {
-  -webkit-box-flex: 50%;
-  -ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-  margin-top: 100px;
-}
-
 .row p {
   font-size: 1.5rem;
   margin: 50px;
